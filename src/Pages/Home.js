@@ -8,7 +8,7 @@ const url = "https://api.github.com/search/repositories?q=topic:"
 
 
 
-function App() {
+const Home =() => {
 	const [List,setList] = useState([]);
   	const { Option } = Select;
 
@@ -104,4 +104,4 @@ function App() {
   )
 }
 
-export default App;
+export default Home;
